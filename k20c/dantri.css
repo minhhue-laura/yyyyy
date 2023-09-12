@@ -1,0 +1,40 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.tong{
+	width: 500px;
+	height: 1000px;
+	
+}
+.tong .cb1{
+	width:500px ;
+	height: 180px;
+	margin-bottom: 15px;
+}
+.tong .cb1 .a1 img{
+	width: 150px;
+	height: 180px;
+	float: left;
+	margin-right: 10px;
+}
+.tong .cb1 .td{
+	width: 340px;
+	height: 180px;
+	overflow: auto;
+	display: block;
+	font-family: a;
+
+/*	float: right;*/
+	font-family: tahoma;
+	font-size: 13px;
+	line-height: 20px;
+}
+.tong .cb1 .td:hover{
+	color: green;
+}
+@font-face{
+	src:url(font/QwitcherGrypen-Bold.ttf);
+	font-family: a;
+
+}

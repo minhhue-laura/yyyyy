@@ -1,0 +1,44 @@
+*{
+	box-sizing: border-box;
+}
+.container::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+.trai{
+	width: 20%;
+}
+.giua{
+	width: 50%;
+}
+.phai{
+	width: 30%;
+}
+.tong{
+	float: left;
+	padding: 20px;
+}
+.giua a img{
+	width: 100%;
+}
+.giua .nd{
+	font-family: tahoma;
+	font-size: 13px;
+	line-height: 20px;
+	font-weight: bold;
+}
+.giua .nd:hover{
+	color: green;
+}
+.phai .cm{
+	width: 300px;
+	height: 150px;
+}
+.phai .cm .td{
+	width: 100px;
+	height: 150px;
+	float: left;
+}
+
+
